@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta name="viewport" content="initial-scale=1, width=device-width">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+        <link href="styles.css" rel="stylesheet">
+        <title>My Webpage</title>
+        <style>
+        a
+        {
+            color: white;
+            text-decoration: none;
+            margin: 0 4rem;
+        }
+        </style>
+    </head>
+
+    <body>
+        <div class="nav-links">
+        <a href="https://shiny-space-goldfish-g4qqqjvwrqgq2w9v-8080.app.github.dev/index.html">Home</a>
+        <a href="https://shiny-space-goldfish-g4qqqjvwrqgq2w9v-8080.app.github.dev/page1.html">Projects</a>
+        <a href="https://shiny-space-goldfish-g4qqqjvwrqgq2w9v-8080.app.github.dev/page2.html">Buttons</a>
+        <a href="https://shiny-space-goldfish-g4qqqjvwrqgq2w9v-8080.app.github.dev/page3.html">Contact</a>
+    </div>
+
+    <button id="button"class="btn btn-warning">Button</button>
+    <button id="button1"class="btn btn-primary">Primary Button</button>
+    <button id="button2"class="btn btn-secondary">Secondary Button</button>
+    <button id="button3"class="btn btn-success">Success Button</button>
+    <button id="button4"class="btn btn-danger">Danger Button</button>
+    <button id="button5"class="btn btn-warning">Warning Button</button>
+    <button id="button6"class="btn btn-info">Info Button</button>
+    <button id="button7"class="btn btn-light">Light Button</button>
+    <button id="button8"class="btn btn-dark">Dark Button</button>
+    <button id="button9"class="btn btn-link">Link Button</button>
+    <script>
+        let button = document.querySelector('#button');
+        let button1 = document.querySelector('#button1');
+        let button2 = document.querySelector('#button2');
+        let button3 = document.querySelector('#button3');
+        let button4 = document.querySelector('#button4');
+        let button5 = document.querySelector('#button5');
+        let button6 = document.querySelector('#button6');
+        let button7 = document.querySelector('#button7');
+        let button8 = document.querySelector('#button8');
+        let button9 = document.querySelector('#button9');
+
+        document.querySelector('#button').addEventListener('click', function(){
+                    button.parentNode.removeChild(button);
+                })
+        document.querySelector('#button1').addEventListener('click', function(){
+                    button1.parentNode.removeChild(button1);
+                })
+        document.querySelector('#button2').addEventListener('click', function(){
+                    button2.parentNode.removeChild(button2);
+                })
+        document.querySelector('#button3').addEventListener('click', function(){
+                    button3.parentNode.removeChild(button3);
+                })
+        document.querySelector('#button4').addEventListener('click', function(){
+                    button4.parentNode.removeChild(button4);
+                })
+        document.querySelector('#button5').addEventListener('click', function(){
+                    button5.parentNode.removeChild(button5);
+                })
+        document.querySelector('#button6').addEventListener('click', function(){
+                    button6.parentNode.removeChild(button6);
+                })
+        document.querySelector('#button7').addEventListener('click', function(){
+                    button7.parentNode.removeChild(button7);
+                })
+        document.querySelector('#button8').addEventListener('click', function(){
+                    button8.parentNode.removeChild(button8);
+                })
+        document.querySelector('#button9').addEventListener('click', function(){
+                    button9.parentNode.removeChild(button9);
+                })
+
+    </script>
+    </body>
+</html>

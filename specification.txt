@@ -1,0 +1,21 @@
+HTML:
+<a>
+<div>
+<style>
+<script>
+<h1>
+<button>
+<h2>
+<h3>
+<h4>
+<p>
+
+CSS:
+color
+font-size
+font-weight
+line-height
+margin: 0
+text-align
+
+I used javascript for some of my buttons to make them disappear when clicked and used a few bootstraps for the design of the website, and the buttons.

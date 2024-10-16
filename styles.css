@@ -1,0 +1,51 @@
+body {
+    background-image: url('nightsky.jpg');
+    background-size: cover; /* This will make the image cover the entire background */
+    background-position: center 50px; /* This will center the image */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /*background-color: #202f46;*/
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 1.5;
+    margin: 0;
+    text-align: center;
+}
+
+.header {
+    background-color: #10172c;
+    color: #fff;
+    padding: 2rem 1rem;
+    text-align: center;
+}
+
+.card {
+    margin-top: 20px;
+}
+
+.nav-links {
+    background-color: #000;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 2rem;
+}
+
+h1 {
+    color: white;
+    background: black;
+    width: 40rem;
+    font-size: 2rem;
+     /* Adjust the value as needed */
+    padding: 2rem 2rem;
+    margin: 16rem auto 0 auto;
+}
+
+h2 {
+    margin: 16rem auto 0 auto;
+}
